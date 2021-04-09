@@ -10,7 +10,7 @@ const secret = 'keyboard cat';
 var api = require('./routes/api');
 var app = express();
 var fs = require('fs');
-// 创建下载的目录
+// 创建下载的目1录
 var folders = ['./uploads', './public/images/favicon', './public/images/snap'];
 folders.forEach((folder) => {
   fs.exists(folder, function (exists) {
